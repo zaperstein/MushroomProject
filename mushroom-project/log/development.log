@@ -1,0 +1,43 @@
+  [1m[35m (80.7ms)[0m  [1m[35mCREATE DATABASE "mushroom_project_development" ENCODING = 'unicode'[0m
+  [1m[35m (38.0ms)[0m  [1m[35mCREATE DATABASE "mushroom_project_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2022-09-12 18:46:55 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/maggiesaperstein/.rvm/gems/ruby-2.7.4/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/maggiesaperstein/.rvm/gems/ruby-2.7.4/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 673)
+Completed 200 OK in 9ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 6462)
+
+
+Started GET "/hello" for ::1 at 2022-09-12 18:47:10 -0500
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.2ms)
+Completed 200 OK in 7ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 725)
+
+
+Started GET "/hello" for ::1 at 2022-09-12 18:47:12 -0500
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 315)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-09-12 18:47:12 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-09-12 18:47:13 -0500
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 314)
+
+
+Started GET "/hello" for ::1 at 2022-09-12 18:47:13 -0500
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 310)
+
+
+Started GET "/hello" for ::1 at 2022-09-12 18:47:13 -0500
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 310)
+
+
