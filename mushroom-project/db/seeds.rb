@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+
+puts "faking images"
+
+10.times do |image|
+  Image.create(src: Faker::LoremFlickr.image(size: "50x60", search_terms: ['mushroom']))
+end
