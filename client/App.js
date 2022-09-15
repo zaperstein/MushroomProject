@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Translator  from './components/Translator'
+import Carousel from './components/Carousel'
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your stuff!</Text>
-      <Translator />
+      <Carousel />
       <StatusBar style="auto" />
     </View>
   );
