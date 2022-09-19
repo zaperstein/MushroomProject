@@ -203,3 +203,16 @@ No serializer found for resource: #<Image id: 1, src: "https://loremflickr.com/5
 Completed 200 OK in 30ms (Views: 18.5ms | ActiveRecord: 4.9ms | Allocations: 17867)
 
 
+Started GET "/images" for ::1 at 2022-09-19 17:56:44 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.8ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.68ms)
+Completed 200 OK in 21ms (Views: 11.8ms | ActiveRecord: 3.4ms | Allocations: 32367)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-09-19 17:56:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
