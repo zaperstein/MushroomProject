@@ -1,0 +1,2 @@
+class FindSpot < ApplicationRecord
+end

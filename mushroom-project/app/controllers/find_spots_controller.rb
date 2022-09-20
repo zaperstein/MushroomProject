@@ -1,0 +1,2 @@
+class FindSpotsController < ApplicationController
+end

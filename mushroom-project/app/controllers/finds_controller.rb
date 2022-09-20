@@ -1,0 +1,2 @@
+class FindsController < ApplicationController
+end
